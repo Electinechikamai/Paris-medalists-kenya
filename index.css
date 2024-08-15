@@ -1,72 +1,79 @@
-body {
+body{
     background-color: azure;
     font-style: italic;
-    padding: 15px;
+    padding: 30px;
+    
+    
 }
 
-h1 {
+h1{
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
-    font-weight: 900;
-    text-decoration: underline;
+    font-weight:900;
+    text-decoration:underline;
     text-align: center;
-    font-size: 1.8rem;
+    
 }
 
-p {
+p{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-size: 1rem;
+    
 }
 
-.trial {
+.trial{
     color: blueviolet;
-}
 
-.OO1 {
+}
+.OO1{
     text-decoration: underline;
 }
 
-ol {
-    list-style: upper-latin;
+
+ol{
+    list-style:upper-latin;
+
 }
 
-.container {
+.container{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-wrap: wrap;
     gap: 1rem;
+   
+
 }
 
-.container div {
-    width: 100%;
-    max-width: 400px;
+.container div{
+    width: 30%;
+    
 }
 
-.container img {
+.container img{
     width: 100%;
-    height: auto;
+    height: 400px;
     border-radius: 10px;
+    
 }
 
-.main-img {
+.main-img{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 40px;
     
 }
 
-/* Styling links */
-a {
+/*syling links*/
+a{
     text-decoration: none;
 }
 
-a:hover {
+a:hover{
     color: blue;
+  
 }
-
-a:active {
+a:active{
     color: pink;
 }
 
