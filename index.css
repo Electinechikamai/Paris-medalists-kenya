@@ -1,0 +1,81 @@
+body{
+    background-color: azure;
+    font-style: italic;
+    padding: 30px;
+    
+    
+}
+
+h1{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight:900;
+    text-decoration:underline;
+    text-align: center;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    
+}
+
+.trial{
+    color: blueviolet;
+
+}
+.OO1{
+    text-decoration: underline;
+}
+
+
+ol{
+    list-style:upper-latin;
+
+}
+
+/*display flex*/
+
+.container{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+
+}
+
+.container div{
+    width: 30%;
+    
+}
+
+.container img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+
+.main-img{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
+}
+
+
+/*syling links*/
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+  
+}
+a:active{
+    color: pink;
+}
